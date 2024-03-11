@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+.grid {
+    background-image: url('../img/captain-america-the-first.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* background-size: contain; */
+    position: absolute;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+
+}
+
+header {
+    position: relative;
+    top: 20px;
+    left: 35px;
+    margin-left: -65px;
+    /* transform: translateX(50%); */
+    color: white;
+}
+
+header p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+}
+
+header p img {
+    width: 80px;
+    padding-bottom: -20px;
+}
+
+main {
+    position: relative;
+    top: 400px;
+    left: 60px;
+    /* transform: translateX(50%); */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+footer {
+    width: 88%;
+    margin-top: 90px;
+    text-align: center;
+    color: white;
+    text-align: display;
+    font-size: 12px;
+    margin-left: 80px;
+    /* color: black; */
+    justify-content: centre;
+    padding: 400px;
+    font-weight: 600;
+    font-family: "PT Sans Narrow", sans-serif;
+    /* width: auto; */
+}
+div.container {
+    width: 100%;
+    position: absolute;
+}
+#title-text-image {
+    width: 450px;
+    margin-left: -120px;
+}
+
+#footer-p4 {
+    color: rgb(174, 11, 11);
+    font-weight: 600;
+}
+
+#release-date {
+    font-size: 22px;
+}
+.captain-america {
+    height: 100vh;
+    background-image: url('img/captain-america-the-first.jpg');
+    background-size: cover;
+    background-repeat: no no-repeat;
+    background-position: center;
+    padding: 50px;
+}
